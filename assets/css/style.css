@@ -1,3 +1,8 @@
+:root {
+  --cor-principal: #5eb647;
+  --cor-secundaria: #ffffff;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -12,8 +17,8 @@ html {
   font-family: "Mulish", sans-serif;
 }
 
-.header-container {
-  padding: 60px 160px;
+.container {
+  padding: 20px 160px;
 }
 
 header {
@@ -32,7 +37,25 @@ nav ul li {
 }
 
 .navbar-link {
-  color: #5eb647;
+  color: var(--cor-principal);
   font-weight: 700;
   font-size: 30px;
+}
+
+.ad-container {
+  background-color: var(--cor-principal);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.ad-container {
+  font-size: 28px;
+  color: var(--cor-secundaria);
+}
+
+.ad-container a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.5);
 }
