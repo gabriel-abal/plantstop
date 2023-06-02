@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  font-family: "Mulish", sans-serif;
+}
+
+.header-container {
+  padding: 60px 160px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-container {
+  display: flex;
+  gap: 73px;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+.navbar-link {
+  color: #5eb647;
+  font-weight: 700;
+  font-size: 30px;
+}
