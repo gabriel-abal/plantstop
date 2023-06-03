@@ -1,1 +1,1 @@
-# plantstop
+This project was developed during a DDS-T12 Review Day under the supervision of Professor Isabella (https://github.com/isadfrn). I developed this project in order to pratice basic concepts about CSS Flexbox.
