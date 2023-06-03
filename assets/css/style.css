@@ -67,7 +67,6 @@ nav ul li {
 }
 
 .headline img {
-  max-height: 480px;
   max-width: 438px;
 }
 
@@ -79,7 +78,7 @@ nav ul li {
 
   display: flex;
   flex-direction: column;
-  gap: 53px;
+  gap: 40px;
 }
 
 .headline span {
@@ -91,7 +90,7 @@ nav ul li {
   color: var(--cor-secundaria);
   border: none;
   padding: 16px;
-  font-size: 35px;
+  font-size: 30px;
   width: 700;
   border-radius: 10px;
 }
