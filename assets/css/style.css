@@ -95,3 +95,28 @@ nav ul li {
   width: 700;
   border-radius: 10px;
 }
+
+.sobre {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.sobre-text {
+  max-width: 400px;
+}
+
+.sobre-text h2 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.sobre-text p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.sobre img {
+  max-width: 475px;
+}
